@@ -22,4 +22,14 @@
         <url-pattern>/services/GetMenu</url-pattern>
         <!-- 上面一句话用于映射访问URL -->
     </servlet-mapping>
+
+    <servlet>
+        <servlet-name>DefInput</servlet-name>
+        <servlet-class>services.DefInput</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>DefInput</servlet-name>
+        <url-pattern>/services/Definput</url-pattern>
+    </servlet-mapping>
+
 </web-app>

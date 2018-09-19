@@ -47,7 +47,7 @@
         <h3>缺陷录入</h3>
     </div>
     <div class="theme-popbod dform">
-        <form class="theme-signin" name="inputform" action="" method="post">
+        <form class="theme-signin" name="inputform" action="services/Definput" method="post">
             <ol>
                 <li><h4>请录入缺陷描述后点击提交!</h4></li>
                 <li><strong>产线：</strong>
@@ -75,7 +75,7 @@
                 <li><strong>零件号：</strong><input class="ipt" type="text" name="ljh" value="001" size="20" /></li>
                 <li>
                     <strong>发生日期：</strong>
-                    <input id="dotime" type="date" value="2018-01-01"/>
+                    <input id="dotime" type="date" name="def_time" value="2018-01-01"/>
                 </li>
                 <li><input class="btn btn-primary" type="submit" name="submit" value=" 提 交 " /></li>
             </ol>
